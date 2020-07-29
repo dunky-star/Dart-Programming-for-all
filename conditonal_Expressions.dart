@@ -13,7 +13,7 @@ void main(){
   int y = 200;
   
   // 1. conditon ? expr1 : expr2
-  x < y ? print("$x is maller than $y") : print("$y is smaller tha $x");
+  x < y ? print("$x is maller than $y") : print("$y is smaller than $x");
   
   // 2. expr1 ?? expr2
   String name;
