@@ -1,5 +1,5 @@
 /*
-  WHILE Loops/Iterators:
+  DO-WHILE Loops/Iterators:
   Used for iteration.
 */
 void main(){
