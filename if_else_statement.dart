@@ -1,6 +1,6 @@
- /*
+/*
   Control flows:
-   1. IF and ELSE Statements
+   1. IF and ELSE
    2. Conditional Expressions
    3. SWITCH and CASE Statements
 
@@ -16,7 +16,7 @@ void main(){
   }
 
  // IF ELSE IF Ladder statement
- var marks = 95;
+ var marks = -2;
   
   if (marks >=90 && marks <100){
     print ("A+ grade");
@@ -26,10 +26,11 @@ void main(){
     print("C grade");
   } else if (marks >=50 && marks <70){
     print("C- grade");
-  } else if (marks < 50){
+  } else if (marks >=0 && marks <50){
     print("You failed");
-  }  else {
+  } else {
     print("Invalid marks. Please try again");
   }
 
 }
+
