@@ -28,6 +28,8 @@ void main(){
     print("C- grade");
   } else if (marks < 50){
     print("You failed");
+  }  else {
+    print("Invalid marks. Please try again");
   }
 
 }
