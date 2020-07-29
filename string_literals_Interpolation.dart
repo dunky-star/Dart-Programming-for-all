@@ -19,7 +19,7 @@ void main(){
   String p3 = 'It\'s not done yet';
   String p4 = "It's not done yet";
   String p5 = 'This is a very long sting to demonstrate good' 
-              ' programming pracices';
+              ' programming practices';
   
   String name = "Kaligs";
   print(p5); //Printing String assigned to p5
