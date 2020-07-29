@@ -16,4 +16,4 @@ _______________
 
 Authors:
 ________
-Geoffrey DUncan Opiyo
+Geoffrey Duncan Opiyo
