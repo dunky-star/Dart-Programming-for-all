@@ -5,7 +5,7 @@
       - otherwise, evaluates and returns the value of expr2.
       
    2. expr1 ?? expr2
-      - if expr1 is not null, return its value; otherwise, evaluates and return the value of expr2.
+      - if expr1 is not null, return its value; otherwise, evaluate and return the value of expr2.
 
 */
 void main(){
