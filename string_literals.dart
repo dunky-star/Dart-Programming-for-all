@@ -26,4 +26,8 @@ void main(){
   print(p5); //Printing String assigned to p5
   print("My name is $name"); //Printing value Kaligs assigned to variable name
   print("The number of characters in String Kaligs is: ${name.length.toString()}"); //Getting length of String Kaligs
+ 
+  int l = 200;
+  int h = 20;
+  print ("The sum of l and h is ${l + h}");
 }
