@@ -14,5 +14,4 @@ _______________
 9. Dart Collections.
 10. Callable Classes
 
-Authors
-Geoffrey Duncan Opiyo
+
