@@ -1,6 +1,6 @@
 /*
   Control flows:
-   1. IF and ELSE
+   1. IF and ELSE Statements
    2. Conditional Expressions
    3. SWITCH and CASE Statements
 
