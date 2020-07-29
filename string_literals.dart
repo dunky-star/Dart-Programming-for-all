@@ -29,5 +29,5 @@ void main(){
  
   int l = 200;
   int h = 20;
-  print ("The sum of l and h is ${l + h}");
+  print ("The sum of $l and $h is ${l + h}");
 }
