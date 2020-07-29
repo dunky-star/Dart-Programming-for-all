@@ -1,5 +1,5 @@
 # Dart-Programming-for-all
-Learn Dart Programming fundamentals &amp; all its basics from scratch.
+Learn Dart Programming fundamentals &amp; all its basics from scratch to prepare you for Flutter dev't.
 
 Topics covered:
 _______________
