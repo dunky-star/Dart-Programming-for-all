@@ -1,5 +1,5 @@
 //In dart, we have application entry point known as the main() function.
-//Whatever in the main function will be executed first when the application loads.
+//Whatever is in the main function will be executed first when the application loads.
 //Dart is a strongly typed language.
 void main(){
   print("Hello everybody");
