@@ -18,7 +18,7 @@ void main(){
   String p2 = 'Married';
   String p3 = 'It\'s not done yet';
   String p4 = "It's not done yet";
-  String p5 = 'This is a very long sting to demonstrate good' 
+  String p5 = 'This is a very long string to demonstrate good' 
               ' programming practices';
   
   String name = "Kaligs";
