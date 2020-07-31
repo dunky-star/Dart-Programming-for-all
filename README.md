@@ -9,7 +9,7 @@ _______________
 4. Loop Control Statements (FOR, WHILE & DO-WHILE loops).
 5. Functions & Methods Concept.
 6. Exception manipulation.
-7. Object Oriented Programming (OOP) concepts.
+7. Object Oriented Programming (OOP) concept.
 8. Dart Functional Programming.
 9. Dart Collections.
 10. Callable Classes
