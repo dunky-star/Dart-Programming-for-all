@@ -3,7 +3,7 @@
   Functions in Dart can be assigned to a variable or passed as a parameter to other functions & all funtions in Dart returns a value, 
   if no return value is specified, the function returns NULL by default.
   -> Syntax and properties of functions.
-  -> Function as expressions (Shorthand syntax).
+  -> Function as expressions (Shorthand syntax with fat arrow).
   -> Function parameters (Required & Optional).
      1. optional positional.
      2. Optional named.
