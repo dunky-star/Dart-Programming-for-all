@@ -19,7 +19,7 @@ int findArea(int length, int width){ // A function that returns a value.
   return areaOfRectangle;
 }
 
-void findPerimeter2(int length, int width){ //Expressing Function as expressions [shorthand syntax].
+void findPerimeter2(int length, int width){ // Expressing Function as expressions [shorthand syntax].
    print("The perimeter of Rectangle using shorthhand Syntax is: ${2*(length + width)}");
   
 }
