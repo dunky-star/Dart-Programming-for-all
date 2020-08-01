@@ -11,7 +11,7 @@
 */
 void findPerimeter(int length, int width){ // A function that returns no value.
   int perimeter = 2*(length + width);
-  print("The perimeter or Rectangle is: $perimeter");
+  print("The perimeter of Rectangle is: $perimeter");
 }
 
 int findArea(int length, int width){ // A function that returns a value.
