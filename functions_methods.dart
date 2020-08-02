@@ -1,5 +1,7 @@
 /*
-  What are functions? Is a collection of statements grouped together to perform a specific operation & function in Dart are Objects. Functions in Dart can be assigned to a variable or passed as a parameter to other functions & all funtions in Dart returns a value, if no return value is specified, the function returns NULL by default.
+  What are functions? Is a collection of statements grouped together to perform a specific operation & function in Dart are Objects. 
+  Functions in Dart can be assigned to a variable or passed as a parameter to other functions & all funtions in Dart returns a value, 
+  if no return value is specified, the function returns NULL by default.
   -> Syntax and properties of functions.
   -> Function as expressions (Shorthand syntax).
   -> Function parameters (Required & Optional).
