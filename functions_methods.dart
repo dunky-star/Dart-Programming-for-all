@@ -19,7 +19,7 @@ int findArea(int length, int width){ // A function that returns a value.
   return areaOfRectangle;
 }
 
-//Expressing Function as expressions [shorthand syntax with a fat arrow].
+//Function as expressions [shorthand syntax with a fat arrow].
 void findPerimeter2(int length, int width) => print("The perimeter of Rectangle using shorthhand Syntax is: ${2*(length + width)}");
 
 void printCities(String city1, city2, [city3]){ // To define optional parameters, you enclose within a square bracket []
