@@ -1,5 +1,6 @@
 /*
-  What are Exception Handling? When normal flow of the program is disrupted and application crashes due to exception errors (IOException,FormatException, IntegerDivisionByZeroException, etc) & usually we need to handle this kind of errors so that our users are always happy.
+  What are Exception Handling? When normal flow of the program is disrupted and application crashes due to exception errors 
+  (IOException,FormatException, IntegerDivisionByZeroException, etc) & usually we need to handle this kind of errors so that our users are always happy.
      1. TRY-CATCH.
      2. ON.
      3. FINALLY.
