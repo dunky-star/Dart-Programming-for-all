@@ -45,6 +45,7 @@ void main() {
 	var tv = Television();
 	tv.volumeUp();
 	tv.volumeDown();
+	tv.infraredMethod();
 }
 
 
