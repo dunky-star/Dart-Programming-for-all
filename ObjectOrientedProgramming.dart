@@ -10,7 +10,7 @@
         - Constant constructor.
 */
 
-// Class defines properties (variables) and behavior (methods) of an object.
+// Class is a blueprint to create objects. It idenfines properties (variables) and behavior (methods) of an object.
 
 class Student{
   int id = 1; // Instance variable, default value is null.
