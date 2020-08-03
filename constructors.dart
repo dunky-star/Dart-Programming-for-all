@@ -1,7 +1,7 @@
 /*
   Constructor: Whatever code you write in the constructor will first be executed 
   before any code is executed.
-    - default constructor (We do not have to explicitly define it because it exists by default.
+    - default constructor (We do not have to explicitly define it because it exists by default).
     - Parametized constructor (have parameters).
     - Named constructor.
     - Constant constructor.
