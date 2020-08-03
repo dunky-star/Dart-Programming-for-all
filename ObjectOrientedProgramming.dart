@@ -13,9 +13,9 @@
 // Class defines properties (variables) and behavior (methods) of an object.
 
 class Student{
-  int id = 1;
-  double age = 0.0; //Instance variable, default value is null.
-  String name; //Instance variable, default value is null.
+  int id = 1; // Instance variable, default value is null.
+  double age = 0.0; // Instance variable, default value is null.
+  String name; // Instance variable, default value is null.
   
   void study(){
     print("${this.name} is now studying.");
