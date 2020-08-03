@@ -17,7 +17,7 @@ class InfraredClass {
 
 	void infraredMethod(){
 		int hexValue = 0xABABEEAC;
-    hexValue++;
+    		hexValue++;
 	}
 
 }
