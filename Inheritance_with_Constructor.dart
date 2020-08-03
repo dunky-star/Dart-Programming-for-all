@@ -3,31 +3,17 @@ Inheritance with constructor:
  1. Inheritance with Default Constructor and Parameterised Constructor
  2. Inheritance with Named Constructor
 */
-
-void main() {
-
-	var dog1 = Dog("Labrador", "Black");
-
-	print("");
-
-	var dog2 = Dog("Pug", "Brown");
-
-	print("");
-
-	var dog3 = Dog.myNamedConstructor("German Shepherd", "Black-Brown");
-}
-
 class Animal {
 
 	String color;
 
 	Animal(String color) {
 		this.color = color;
-		print("Animal class constructor");
+		print("Animal super class constructor");
 	}
 
 	Animal.myAnimalNamedConstrctor(String color) {
-		print("Animal class named constructor");
+		print("Animal super class named constructor");
 	}
 }
 
@@ -45,3 +31,18 @@ class Dog extends Animal {
 		print("Dog class Named Constructor");
 	}
 }
+
+
+void main() {
+
+	var dog1 = Dog("Labrador", "Black");
+
+	print("");
+
+	var dog2 = Dog("Pug", "Brown");
+
+	print("");
+
+	var dog3 = Dog.myNamedConstructor("German Shepherd", "Black-Brown");
+}
+
