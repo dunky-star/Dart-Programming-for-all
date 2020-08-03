@@ -5,6 +5,7 @@
     - Parametized constructor (have parameters).
     - Named constructor.
     - Constant constructor.
+  You can have multiple Named constructors but you cannot have default and parametized constructors at the same time.
 */
 
 // Class defines properties (variables) and behavior (methods) of an object.
