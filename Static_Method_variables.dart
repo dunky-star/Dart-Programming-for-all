@@ -1,5 +1,5 @@
 //Static Methods and Variables
-//Statis methods and variables are memory efficient since they are lazily evaluated.
+//Static methods and variables are memory efficient since they are lazily evaluated.
 
 class Circle {
 
