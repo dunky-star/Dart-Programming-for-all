@@ -36,8 +36,8 @@ void main() {
     for (String value in fruits.values){ // Print all values
       print(value);
     }
-    print("\nKey value pair");
-    print("________________");
+    print("\nKey value pair: Fruits & their color");
+    print("__________________________________________");
     // To print all values with their keys.
     fruits.forEach((key, value) => print("key: $key and value: $value"));
     print("\nKey value pair: Countries & zip code.");
