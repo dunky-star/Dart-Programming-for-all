@@ -10,7 +10,7 @@ _______________
 5. Functions & Methods Concept.
 6. Exception manipulation.
 7. Object Oriented Programming (OOP) concept.
-8. Dart Functional Programming.
+8. Dart Functional Programming (Lambda/nameless, Lexical Closures, High-Order function).
 9. Dart Collections.
 10. Callable Classes
 
