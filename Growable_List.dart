@@ -25,8 +25,8 @@ void main() {
   //numbersList[4] = null; // Delete operation
   
   
-  //numbersList.remove(73); // supported in growable list  
-  numbersList.add(24);     // supported in growable list 
+  //numbersList.remove(500); // supported in growable list  
+  numbersList.add(240);     // supported in growable list 
   numbersList.removeAt(3); // supported in growable list
   //numbersList.clear();     // supported in growable list
    
