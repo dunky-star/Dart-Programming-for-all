@@ -19,11 +19,10 @@ void main() {
   numbersList[4] = null; // Delete operation
   
   /*
-  numbersList.remove(73); // Not supported in fixed-length list  
-  numbersList.add(24);    // Not supported in fixed-length list  
-  numbersList.removeAt(3); // Not supported in fixed-length list  
-  numbersList.add(24);     // Not supported in fixed-length list  
-  numbersList.add(24);     // Not supported in fixed-length list  
+  numbersList.remove(100); // Not supported in fixed-length list  
+  numbersList.add(240);    // Not supported in fixed-length list  
+  numbersList.removeAt(2); // Not supported in fixed-length list  
+  numbersList.clear();     // Not supported in fixed-length list  
   */
   //printing numbersList
   numbersList.forEach((element) => print(element)); // Using Lambda expression to print elements in the List.
