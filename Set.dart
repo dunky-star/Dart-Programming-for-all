@@ -27,7 +27,7 @@ void main() {
    
   
   //printing numbersSet
-  numbersSet.forEach((element) => print(element)); // Using Lambda expression to print elements in the et.
+  numbersSet.forEach((element) => print(element)); // Using Lambda expression to print elements in the Set.
   print("");
     
   for (int element in numbersSet){ // Using individual element (object).
