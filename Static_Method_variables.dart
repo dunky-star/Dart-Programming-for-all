@@ -9,7 +9,7 @@ class Circle {
 	String color;
 
 	static void calculateArea() {
-    double areaOfCircle = pi* maxRadius * maxRadius;
+    		double areaOfCircle = pi* maxRadius * maxRadius;
 		print("The area of a circle with radius $maxRadius is: $areaOfCircle");
 //		myNormalFunction();     // Not allowed to call instance functions
 //		this.color;             // You cannot use 'this' keyword and even cannot access Instance variables
@@ -37,7 +37,7 @@ void main() {
 	Circle.pi;  // No more memory will be allocated .
 
 
-  print("The constant pi ${Circle.pi}");   // Best way to call Static Variable (the syntax)
+  	print("The constant pi ${Circle.pi}");   // Best way to call Static Variable (the syntax)
 
-  Circle.calculateArea();     // Best way to call Static Method (the syntax)
+  	Circle.calculateArea();     // Best way to call Static Method (the syntax)
 }
