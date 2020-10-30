@@ -4,8 +4,11 @@ void main(List<String> arguments) {
   print(numbers);
 
   var strings = <String>[];
-  strings.addAll(['a', 'Opiyo', 'c']);
+  strings.addAll(['a', 'Geoff', 'c']);
   print(strings);
+
+  var values = [1, 2, 3, 4, 5, 6];
+  print(added(0, values));
 
   add<int>(1, 2);
   add<double>(1.0, 2.09);
@@ -21,7 +24,18 @@ void add<T>(T a, T b) {
   print(a.toString() + b.toString());
 }
 
-//More complex
+// More complex
 void addNumbers<T extends num>(T a, T b) {
   print(a + b);
 }
+
+// Generic function
+T added<T extends num>(T value, List<T> items) {
+  // ignore: omit_local_variable_types
+  T ret = value;
+  items.forEach((value) {
+    ret = ret + value;
+  });
+  return ret;
+}
+
