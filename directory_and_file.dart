@@ -38,12 +38,15 @@ void main(List<String> arguments) {
     print('');
   });
 
+  // Creating file myfile.txt
   var myfile = File(curdir.path + 'myfile.txt');
+  // Calling write function on myfile.txt
   writeFile(myfile);
+  // Calling read function on myfile.txt
   readFile(myfile);
 }
 
-// Writing to file
+// Writing to file function
 void writeFile(File file) {
   // Append or Write Mode: Note, write mode erases
   // everything in a file and starts afresh. Use it carefully otherwise APPEND.;
@@ -53,7 +56,7 @@ void writeFile(File file) {
   raf.closeSync();
 }
 
-// Accessing a file
+// Accessing a file function
 void readFile(File file) {
   if (!file.existsSync()) {
     print('file not found');
