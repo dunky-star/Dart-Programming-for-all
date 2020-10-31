@@ -14,13 +14,13 @@ _______________
 9. Dart Collections.
 10. Callable Classes.
 11. Dart Generic Programming.
-12. File systems.
+12. File Systems.
 13. Working with Operating System Variables.
-14. Async programming.
+14. Async Programming.
 15. Compression.
 16. Encryption.
 17. Socket Programming.
-18. Database programming.
+18. Database Programming.
 
 Authors:
 ________
