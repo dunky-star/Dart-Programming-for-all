@@ -14,7 +14,7 @@ _______________
 9. Dart Collections.
 10. Callable Classes.
 11. Dart Generic Programming.
-12. File Systems.
+12. File Systems (Sync vs Async, System Temp Directory, Listing items in directories, accessing files and manipulating them).
 13. Working with Operating System Variables.
 14. Async Programming.
 15. Compression.
