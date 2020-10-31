@@ -1,5 +1,5 @@
 # Dart-Programming-for-all
-Learn Dart Programming fundamentals &amp; all its basics from scratch to prepare you for Flutter dev't [Mobile, Web, Desktop apps].
+Learn Dart fundamentals, intermediate & advanced programming; all starts with its basics from scratch to prepare you for Flutter dev't [Mobile, Web, Desktop apps].
 
 Topics covered:
 _______________
