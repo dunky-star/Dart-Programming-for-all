@@ -1,5 +1,4 @@
 import 'dart:io';
-import 'dart:convert';
 
 void main(List<String> arguments) {
   // Displaying operating system and version
@@ -18,7 +17,13 @@ void main(List<String> arguments) {
     print('${key} ${Platform.environment[key]}');
   });
   print('\n\r');
-  // List all files in a directory - Linux specific
+  // Print current working directory
+  Process.run('pwd', []).then((ProcessResult results1) {
+    print(results1.stdout);
+    print('Exit code: ${results1.exitCode}'); // 0 is good
+  });
+  print('\n\r');
+   // List all files in a directory - Linux specific
   Process.run('ls', ['-l']).then((ProcessResult results) {
     // notepad C:\windows\System32\notepad.exe
     print(results.stdout);
