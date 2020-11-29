@@ -11,7 +11,7 @@ void main(List<String> arguments) {
   }
   print('Path: ${Platform.script.path}');
   print('Dart: ${Platform.executable}');
-  // Displaying system path
+  // Displaying the PATH variable 
   print('Env:');
   Platform.environment.keys.forEach((key) {
     print('${key} ${Platform.environment[key]}');
