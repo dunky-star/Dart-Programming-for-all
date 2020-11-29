@@ -4,7 +4,7 @@ import 'dart:convert';
 void main(List<String> arguments) {
   //Linux Specific
   Process.start('cat', []).then((Process process) {
-    //console DIR
+    //Transform to UTF8
     process.stdout.transform(utf8.decoder).listen((data) {
       print(data);
     });
